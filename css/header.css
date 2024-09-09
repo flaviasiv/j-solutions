@@ -250,10 +250,10 @@ position: absolute;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    padding-top: 0px;
+    padding-top: 0;
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 32px;
-    height:220px;
+    height:390px;
   }
   .menu-links ul{
       display: block;
@@ -261,6 +261,8 @@ position: absolute;
   .menu-linksbtn{
       display: flex;
       margin-bottom: 0px;
+      margin-top: 190px;
+      padding: 0;
   }
   .menu-linksbtn ul{
     display: flex;

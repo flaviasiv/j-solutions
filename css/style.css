@@ -168,17 +168,20 @@ line-height: 150%;
     }
 }
 @media screen and (max-width:1050px) {
-/* .postercontainer{
-    background: url(../assets/bg-posterm.png);
-    background-size: 100%;
-       background-position: 100%;
-   } */
+    .postercontainer{
+        padding: 0 20px 50px;
+   }
    .posterinfos{
        max-width: 309px;
        padding: 50px 0 70px;       
     }
    .posterinfos img{
     max-width: 244px
+   }
+   .posterimg video{
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
    }
    .infosw{display: none;}
    .infosm{
@@ -380,6 +383,10 @@ swiper-slide.swiper1 {
     text-align: center;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
 }
 .servicescard .sercardinfo svg{
     position: absolute;
@@ -417,8 +424,12 @@ swiper-slide.swiper1 {
   border: 1px solid #000;
 }
 @media screen and (max-width:990px) {
+    swiper-slide.swiper1 {
+        font-size: 12px;
+        margin-left: 15px;
+    }
     .servicescontainer{
-        padding-bottom: 0;
+        padding-bottom: 200px;
     }
     .videoimg {
         display: flex;
@@ -445,6 +456,126 @@ swiper-slide.swiper1 {
     .servicesbutton a{
         font-size: 16px;
     }
+    .servicesgrid{
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 30px;
+        gap: 10px;
+    }
+    .servicescard{
+        width: 190px;
+        height: 257px;
+    }
+    .servicescard .sercardinfo{
+        width: 190px;
+        padding: 10px;
+        gap: 10px;
+    }
+    .servicescard .sercardinfo svg{
+        width: 40px;
+    }
+    .servicescard .imgsercard{
+        width: 190px;
+        height: 150px;
+    }
+    .servicescard h3{
+        font-size: 12.336px;
+        line-height: 150%;
+    }
+    .btnservice{
+      width: 100px;
+      padding: 13px 0;
+        font-size: 10px;
+        font-weight: 800;
+        line-height: 80%;
+      gap: 5px;
+    }
+}
+.aboutcontainer{
+    background: #FFCFD7;
+    padding: 0 0 20px 0;
+}
+.aboutcontainer .vetor1{
+    display: flex;
+    margin: 0;
+}
+.about{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 50px;
+    align-items: center;
+}
+.aboutimgw{
+    position: absolute;
+    right: 0;
+    bottom: -400px;
+    z-index: 99;
+    max-width: 491px;
+}
+.abouttitle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1400px;
+    margin: auto;
+    color: #000;
+}
+.aboutcontainer .servicesbutton{
+    margin: 10px 0;
+}
+.about h1{
+    font-family: 'Cinzel';
+    font-size: 90.327px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; /* 81.295px */
+    text-transform: uppercase;
+}
+.about p{
+    max-width:452px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+}
+.aboutimm{display: none;}
+@media screen and (max-width:990px) {
+    .about{
+        padding: 0px 10px;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .about .vetor1{
+        margin: auto;
+    }
+    /* .reveal.revealtext.aboutimg{
+        position: absolute;
+        transform: translateX(0%);
+        opacity: 0.2;
+        transition: 0.5s all ease;
+    }
+    .reveal.active.revealtext{
+        transform: translateX(0%);
+        opacity: 1;
+    } */
+     .aboutimgw{display: none;}
+     .aboutimm{display: block;}
+    .aboutimg{
+        max-width:329px;
+        padding: 0px 10px;
+        margin: auto;
+    }
+    .abouttitle{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .about p{margin: auto;}
+    .about h1{max-width: 370px; margin: auto;}
 }
 .preferencecontainer{
     color: #fff;
@@ -561,92 +692,6 @@ swiper-slide.swiper1 {
     .preferencecard{
         padding: 16px 0 16px 32px;
     }
-}
-.aboutcontainer{
-    background: #FFCFD7;
-    padding: 0 0 20px 0;
-}
-.aboutcontainer .vetor1{
-    display: flex;
-    margin: 0;
-}
-.about{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 50px;
-    align-items: center;
-}
-.aboutimgw{
-    position: absolute;
-    right: 0;
-    bottom: -400px;
-    z-index: 99;
-    max-width: 491px;
-}
-.abouttitle{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    max-width: 1400px;
-    margin: auto;
-    color: #000;
-}
-.aboutcontainer .servicesbutton{
-    margin: 10px 0;
-}
-.about h1{
-    font-family: 'Cinzel';
-    font-size: 90.327px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 90%; /* 81.295px */
-    text-transform: uppercase;
-}
-.about p{
-    max-width:452px;
-    font-family: 'Montserrat';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130%; 
-}
-.aboutimm{display: none;}
-@media screen and (max-width:990px) {
-    .about{
-        padding: 0px 10px;
-        flex-direction: column;
-        gap: 32px;
-    }
-    .about .vetor1{
-        margin: auto;
-    }
-    /* .reveal.revealtext.aboutimg{
-        position: absolute;
-        transform: translateX(0%);
-        opacity: 0.2;
-        transition: 0.5s all ease;
-    }
-    .reveal.active.revealtext{
-        transform: translateX(0%);
-        opacity: 1;
-    } */
-     .aboutimgw{display: none;}
-     .aboutimm{display: block;}
-    .aboutimg{
-        max-width:329px;
-        padding: 0px 10px;
-        margin: auto;
-    }
-    .abouttitle{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding: 0 10px;
-    }
-    .about p{margin: auto;}
-    .about h1{max-width: 370px; margin: auto;}
 }
 .gallerycontainer{
     padding: 120px 0;
@@ -915,12 +960,15 @@ form button{
         flex-direction: column;
         padding: 0;
     }
+    .form{
+        padding: 0 20px;
+    }
     .formp h2{
         width: 330px;    
         font-size: 36px;
     }
     .formgrid{
-    padding: 100px 10px;
+    padding: 100px 0;
 }
 }
 .mapscontainer{
