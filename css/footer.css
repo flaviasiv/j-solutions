@@ -142,9 +142,7 @@ footer{
     padding: 50px 90px;
     align-items: center;
     text-align: center;   
-    border-top: 1px solid #8E8E8E;
-    border-top-color: linear-gradient(90deg, #8E8E8E 0%, #D9D9D9 68.5%, #B4B4B4 100%);
-}
+    border-top: 1px solid #8E8E8E;}
 .rights ul{
     display: flex;
     gap: 20px;
