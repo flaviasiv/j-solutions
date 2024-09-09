@@ -261,11 +261,14 @@ swiper-slide.swiper1 {
     max-width: fit-content;
     margin-left: 30px;
 }
-.swiper1 img {
-  width: 320px !important;
-  max-width: 100% !important;
-  margin: auto;
-  object-fit: cover !important;
+.swiper1 ul li{
+    font-family: "Glacial Indifference";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.swiper1 ul li::marker {
+    color: #FFCFD7;
 }
 .servicestitle{
     position: relative;
@@ -550,15 +553,15 @@ swiper-slide.swiper1 {
 .aboutimm{display: none;}
 @media screen and (max-width:1090px) {
     .about{
-        padding: 0 20px 0 30px;
+        padding: 0 20px 0 50px;
         flex-direction: column;
         gap: 32px;
     }
     .vetor-l{
-        left: -25px;
+        left: -40px;
     }
     .vetor-l img{
-        height: 1970px;
+        height: 1900px;
         max-height: 2000px;
     }
     /* .reveal.revealtext.aboutimg{
@@ -675,14 +678,14 @@ swiper-slide.swiper1 {
     z-index: 9;
     width: 490px;
 }
-.preferencecard:hover{
+/* .preferencecard:hover{
     background: #E1D1AF;
     transition: 0.3s all;
 }
 .preferencecard:hover h3{
     color: #1A1409;
     transition: 0.3s all;
-}
+} */
 .preferencecard h3{
     font-family: 'Montserrat';
     font-size: 20px;
@@ -697,7 +700,7 @@ swiper-slide.swiper1 {
         padding-top: 100px;
     }
     .preferenceabs{
-        padding: 0 10px 0 30px;
+        padding: 0 10px 0 50px;
         flex-direction: column;
     }
     .preferencetitle{
@@ -743,6 +746,9 @@ swiper-slide.swiper1 {
     max-width: 420px;
     padding: 0 10px;
     margin: auto;
+}
+.gallerytitle .small{
+    color: #E974AB;
 }
 .gallerytitle p, .reviewstitle p{
     font-size: 16px;
@@ -861,6 +867,12 @@ swiper-slide.swiper1 {
         font-size: 40px;
         max-width: 380px;
         margin: auto;
+    }
+    .ig-embed h2{
+        font-size: 42px;
+    }
+    .ig-embed h2 svg{
+        max-width: 50px;
     }
     .ig-embed iframe{
         width:100%;
@@ -1129,6 +1141,9 @@ form button{
     padding: 200px 0 100px;
     gap: 32px;
 }
+.popuptest.bg-bf::after{
+    background-position-y: -100px;
+}
 .popupgrid{
     display: flex;
     width: 100%;
@@ -1183,13 +1198,21 @@ form button{
     font-weight: 800;
     line-height: 150%; 
 }
+@media screen and (max-width:1290px) {    
+    .popuptest.bg-bf::after{
+        background-position-y: -50px;
+    }
+}
 @media screen and (max-width:800px) {
+    .popuptest.bg-bf::after{
+        background-position-y: 0px;
+    }
     .popupgrid .content h1{
         font-size: 40px;
     }
     .popuptest{
         margin-top: 80px;
-        padding-bottom: 100px;
+        padding: 100px 0 100px;
     }
 }
 
