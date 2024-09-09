@@ -8,7 +8,6 @@
     url(../webfonts/GlacialIndifference-Bold.otf),
     url(../webfonts/GlacialIndifference-Italic.otf);
     font-weight: normal;
-    font-style: normal;
 }
 *{
     margin: 0;
@@ -145,7 +144,6 @@ line-height: 150%;
     text-transform: capitalize;
     font-family: "Glacial Indifference";
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 150%; 
     display: flex;
@@ -178,7 +176,7 @@ line-height: 150%;
        padding: 50px 0 70px;       
     }
    .posterinfos img{
-    max-width: 244px
+    max-width: 200px
    }
    .posterimg video{
     width: 100%;
@@ -298,7 +296,6 @@ swiper-slide.swiper1 {
     margin: auto;
     font-family: "Glacial Indifference";
     font-size: 14px;
-    font-style: normal;
     font-weight: 300;
     line-height: 130%; 
 }
@@ -461,15 +458,16 @@ swiper-slide.swiper1 {
     .servicesgrid{
         justify-content: center;
         margin: auto;
-        padding-bottom: 30px;
         gap: 10px;
+        padding: 0 10px;
+        padding-bottom: 30px;
     }
     .servicescard{
-        width: 190px;
+        width: 180px;
         height: 257px;
     }
     .servicescard .sercardinfo{
-        width: 190px;
+        width: 180px;
         padding: 10px;
         gap: 10px;
     }
@@ -477,7 +475,7 @@ swiper-slide.swiper1 {
         width: 40px;
     }
     .servicescard .imgsercard{
-        width: 190px;
+        width: 180px;
         height: 150px;
     }
     .servicescard h3{
@@ -538,7 +536,6 @@ swiper-slide.swiper1 {
 .about h1{
     font-family: 'Cinzel';
     font-size: 90.327px;
-    font-style: normal;
     font-weight: 700;
     line-height: 90%; /* 81.295px */
     text-transform: uppercase;
@@ -547,7 +544,6 @@ swiper-slide.swiper1 {
     max-width:452px;
     font-family: 'Montserrat';
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 130%; 
 }
@@ -562,7 +558,7 @@ swiper-slide.swiper1 {
         left: -25px;
     }
     .vetor-l img{
-        height: 1990px;
+        height: 1970px;
         max-height: 2000px;
     }
     /* .reveal.revealtext.aboutimg{
@@ -586,6 +582,7 @@ swiper-slide.swiper1 {
         display: flex;
         flex-direction: column;
     }
+    .about h2{padding-left: 10px;}
     .about p{
         padding-bottom: 20px;
         font-size: 20px;
@@ -640,7 +637,6 @@ swiper-slide.swiper1 {
     color: #FFCFD7;
     font-family: 'Cinzel';
     font-size: 64px;
-    font-style: normal;
     font-weight: 700;
     line-height: 90%; /* 57.6px */
     text-transform: uppercase;
@@ -654,7 +650,6 @@ swiper-slide.swiper1 {
 .preferencetitle p{
     font-family: 'Montserrat';
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 130%;
     max-width: 720px;
@@ -691,7 +686,6 @@ swiper-slide.swiper1 {
 .preferencecard h3{
     font-family: 'Montserrat';
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 120%;
 }
@@ -765,26 +759,6 @@ swiper-slide.swiper1 {
     gap: 4px;
 }
 
-/* .mySwiper3 {
-  width: 100%;
-  height:560px;
-  max-width: 9000px;
-  cursor: grab;
-  margin: 0 auto !important;
-}
-.swiper3 {
-  width: 100%;
-  max-width: 520px;
-  height: 100%;
-  margin: auto;
-  margin-bottom: 40px;
-}
-.swiper3 img {
-  width: 100% !important;
-  max-width: 518px;
-  margin: auto;
-  object-fit: cover !important;
-} */
  .gallerygridm{display: none;}
 @media screen and (max-width:1200px) {    
     /* .gallerycontainer{
@@ -801,12 +775,20 @@ swiper-slide.swiper1 {
     }
     .mySwiper3 {
       height:390px;
+      cursor: grab;
+      margin: 0 auto !important;
     }
     .swiper3 {
+      width: 100%;
       max-width: 350px;
+      height: 100%;
+      margin: auto;
     }
     .swiper3 img {
+      width: 100% !important;
       max-width: 350px;
+      margin: auto;
+      object-fit: cover !important;
     }
 }
 .reviewscontainer{
@@ -829,7 +811,6 @@ swiper-slide.swiper1 {
     color: #000;
     font-family: 'Cinzel';
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 67.2px */
     text-transform: uppercase;
@@ -854,7 +835,6 @@ swiper-slide.swiper1 {
     align-items: center;
     font-family: 'Cinzel';
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 120%; /* 67.2px */
     text-transform: uppercase;
@@ -877,6 +857,11 @@ swiper-slide.swiper1 {
 }
 @media screen and (max-width:580px) {
     .reviewscontainer{margin-top: -1px;}
+    .reviewstitle p{        
+        font-size: 40px;
+        max-width: 380px;
+        margin: auto;
+    }
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
@@ -927,7 +912,6 @@ swiper-slide.swiper1 {
     color: #FFCFD7; 
     font-family: 'Cinzel';
     font-size: 64.129px;
-    font-style: normal;
     font-weight: 700;
     line-height: 90%; /* 57.716px */
     text-transform: uppercase;
@@ -1075,7 +1059,6 @@ form button{
 }
 .mapinfo ul li p{
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 150%;
 }
