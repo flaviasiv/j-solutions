@@ -513,6 +513,14 @@ swiper-slide.swiper1 {
     z-index: 99;
     max-width: 491px;
 }
+.vetor-l{
+    position: absolute;
+    left: -35px;
+    z-index: 99;
+}
+.vetor-l img{
+    max-height: 1600px;
+}
 .abouttitle{
     position: relative;
     display: flex;
@@ -542,14 +550,18 @@ swiper-slide.swiper1 {
     line-height: 130%; 
 }
 .aboutimm{display: none;}
-@media screen and (max-width:990px) {
+@media screen and (max-width:1090px) {
     .about{
-        padding: 0px 10px;
+        padding: 0 20px 0 30px;
         flex-direction: column;
         gap: 32px;
     }
-    .about .vetor1{
-        margin: auto;
+    .vetor-l{
+        left: -25px;
+    }
+    .vetor-l img{
+        height: 1990px;
+        max-height: 2000px;
     }
     /* .reveal.revealtext.aboutimg{
         position: absolute;
@@ -564,18 +576,25 @@ swiper-slide.swiper1 {
      .aboutimgw{display: none;}
      .aboutimm{display: block;}
     .aboutimg{
-        max-width:329px;
-        padding: 0px 10px;
+        width: 100%;
         margin: auto;
+        padding-top: 20px;
     }
     .abouttitle{
         display: flex;
         flex-direction: column;
-        text-align: center;
-        padding: 0 10px;
     }
-    .about p{margin: auto;}
-    .about h1{max-width: 370px; margin: auto;}
+    .about p{
+        padding-bottom: 20px;
+        font-size: 20px;
+        line-height: 130%;
+    }
+    .about h1{
+        max-width: 370px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 120%;
+    }
 }
 .preferencecontainer{
     color: #fff;
@@ -677,20 +696,39 @@ swiper-slide.swiper1 {
 .preferencecontainer .servicesbutton{
     bottom: -25px;
 }
-@media screen and (max-width:830px) {
+@media screen and (max-width:930px) {
+    .preferencecontainer{
+        padding-top: 100px;
+    }
     .preferenceabs{
-        padding: 0 10px;
+        padding: 0 10px 0 30px;
         flex-direction: column;
     }
     .preferencetitle{
-        text-align: center;
         margin: auto;
+    }
+    .preftittleimg{display: none;}
+    .preferencetitle h1{
+        font-size: 40px;
+        line-height: 120%;
     }
     .preferencetitle .vetor1{
-        margin: auto;
+        width: 48px;
     }
+    .preferencetitle p{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 130%; }
     .preferencecard{
         padding: 16px 0 16px 32px;
+        width: 100%;
+    }
+    .preferencecard svg{
+        max-width: 40px;
+    }
+    .preferencecard h3{
+    font-size: 15.329px;
+    line-height: 120%;
     }
 }
 .gallerycontainer{
@@ -745,14 +783,17 @@ swiper-slide.swiper1 {
   margin: auto;
   object-fit: cover !important;
 } */
+ .gallerygridm{display: none;}
 @media screen and (max-width:1200px) {    
-    .gallerycontainer{
+    /* .gallerycontainer{
         background: url(../assets/gallerybgm.png);
         background-size: 150%;
         background-position-y: bottom;
-    }
+    } */
 }
-@media screen and (max-width:900px) {    
+@media screen and (max-width:1090px) {  
+    .gallerygridw{display: none;} 
+    .gallerygridm{display: block;} 
     .gallerycontainer{
         background-size: 250%;
     }
@@ -850,7 +891,7 @@ swiper-slide.swiper1 {
     background: url(../assets/formbg.png) no-repeat;
     background-position: bottom;
     background-size: cover;
-    background-size: 100%;
+    background-size: 110%;
     padding: 120px 0;
 }
 .formgrid::after {
@@ -899,7 +940,8 @@ swiper-slide.swiper1 {
 }
 .logoform{
     color: #fff;
-    width: 210px;
+    width: 100%;
+    max-width: 350px;
     z-index: 99;
     margin-bottom: 0px;
 }
@@ -956,6 +998,18 @@ form button{
     outline: 1px solid #fff;     /* oranges! yey */
 }
 @media screen and (max-width:980px) {
+    .formgrid{
+        background: url(../assets/formbg.png) no-repeat;
+        background-size: 200%;
+        padding: 100px 0 150px;
+    }
+    .logoform{
+        color: #fff;
+        width: 100%;
+        max-width: 300px;
+        z-index: 99;
+        margin-bottom: 0px;
+    }
     .formp{
         flex-direction: column;
         padding: 0;
@@ -967,9 +1021,6 @@ form button{
         width: 330px;    
         font-size: 36px;
     }
-    .formgrid{
-    padding: 100px 0;
-}
 }
 .mapscontainer{
     position:relative;
