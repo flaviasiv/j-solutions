@@ -161,6 +161,7 @@ line-height: 150%;
  @media screen and (max-width:1450px) {
    .postercontainer{
         background-size: 150%;
+        padding-top: 50px;
     }
     .posterinfos{
         text-align: center;
@@ -170,7 +171,7 @@ line-height: 150%;
 }
 @media screen and (max-width:1050px) {
     .postercontainer{
-        padding: 0 20px 50px;
+        padding: 90px 20px 50px;
    }
    .posterinfos{
        max-width: 309px;
