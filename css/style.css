@@ -7,6 +7,8 @@
     src: url(../webfonts/GlacialIndifference-Regular.otf),
     url(../webfonts/GlacialIndifference-Bold.otf),
     url(../webfonts/GlacialIndifference-Italic.otf);
+    font-weight: normal;
+    font-style: normal;
 }
 *{
     margin: 0;
@@ -159,7 +161,6 @@ line-height: 150%;
  @media screen and (max-width:1450px) {
    .postercontainer{
         background-size: 150%;
-        margin-top: 80px;
     }
     .posterinfos{
         text-align: center;
@@ -1002,7 +1003,7 @@ form button{
 @media screen and (max-width:980px) {
     .formgrid{
         background: url(../assets/formbg.png) no-repeat;
-        background-size: 200%;
+        background-size: 300%;
         padding: 100px 0 150px;
     }
     .logoform{
@@ -1167,6 +1168,7 @@ form button{
     width: 100%;
     max-width: 645px;
     margin: auto;
+    padding: 0 10px;
     z-index: 9;
     justify-content: center;
 }
@@ -1198,8 +1200,12 @@ form button{
     line-height: 150%; 
 }
 @media screen and (max-width:800px) {
+    .popupgrid .content h1{
+        font-size: 40px;
+    }
     .popuptest{
-    padding-bottom: 100px;
+        margin-top: 80px;
+        padding-bottom: 100px;
     }
 }
 
