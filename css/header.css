@@ -121,7 +121,7 @@ header {
   clip-path: #000;
 }
 .menusocial ul a:hover svg circle{
-  fill: #E974AB;
+  fill: #FFCFD7;
   transition: 0.2s ease-in-out;
 }
 .callnow{
@@ -147,8 +147,8 @@ header {
     margin: auto;
 }
 .callnow:hover{
-  background: #E974AB;
-  border: #E974AB;
+  background: #FFCFD7;
+  border: #FFCFD7;
 }
 .callnow:hover a{
   color: #000;

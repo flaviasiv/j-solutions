@@ -125,11 +125,14 @@ footer{
     line-height: 120%;
     margin-bottom: 8px;
 }
+.footernav a:hover, .address ul li a:hover, .rights ul li a:hover{
+    color: #FFCFD7;
+}
 .footerinfos ul a{
     list-style: none;
     text-decoration: none;
     margin-top: 8px;
-    color: #F4C977;
+    color: #FFCFD7;
 }
 .rights{
     position: relative;
