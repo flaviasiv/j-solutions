@@ -565,7 +565,7 @@ swiper-slide.swiper1 {
     z-index: 99;
 }
 .vetor-l img{
-    max-height: 1600px;
+    max-height: 1450px;
 }
 .abouttitle{
     position: relative;
@@ -605,7 +605,7 @@ swiper-slide.swiper1 {
         left: -40px;
     }
     .vetor-l img{
-        height: 1600px;
+        height: 1550px;
         max-height: 2000px;
     }
     /* .reveal.revealtext.aboutimg{
