@@ -492,7 +492,6 @@ swiper-slide.swiper1 {
     .servicestitle h2{
         max-width: 357px;
         font-size: 26px;
-        font-weight: 400;
         line-height: 120%;
         margin: auto;
     }
@@ -591,7 +590,7 @@ swiper-slide.swiper1 {
 .about p{
     max-width:452px;
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 130%; 
 }
@@ -606,7 +605,7 @@ swiper-slide.swiper1 {
         left: -40px;
     }
     .vetor-l img{
-        height: 1800px;
+        height: 1600px;
         max-height: 2000px;
     }
     /* .reveal.revealtext.aboutimg{
@@ -633,7 +632,7 @@ swiper-slide.swiper1 {
     .about h2{padding-left: 5px;}
     .about p{
         padding-bottom: 20px;
-        font-size: 20px;
+        font-size:14px;
         line-height: 130%;
     }
     .about h1{
@@ -699,7 +698,7 @@ swiper-slide.swiper1 {
 }
 .preferencetitle p{
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 130%;
     max-width: 720px;
@@ -762,7 +761,7 @@ swiper-slide.swiper1 {
         width: 48px;
     }
     .preferencetitle p{
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 130%; }
     .preferencecard{
