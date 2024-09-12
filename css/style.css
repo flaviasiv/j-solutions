@@ -1362,8 +1362,11 @@ a{
     fill: #000;
 }
 .btn2:hover, form button:hover{
-    background: #E974AB;
+    background: #FFCFD7;
     transition: 0.1s all;
+}
+.btnab:hover{
+    border: 1px solid #000;
 }
 .swiper2:hover {
     box-shadow: 10px 10px 16px rgba(161, 161, 161, 0.5); 
