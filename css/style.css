@@ -136,6 +136,9 @@ line-height: 150%;
     text-transform: uppercase;
     z-index: 9;
 }
+.posterinfos h4{
+    z-index: 9;
+}
 .posterimg{
     position: relative;
     width: 100%;
@@ -204,6 +207,9 @@ line-height: 150%;
     .videoposter{
         width: 100vw;
         height: 100vw
+    }
+    .infosm h3{
+        font-size: 36px
     }
     .infosm h4{
         z-index: 9;
@@ -318,10 +324,12 @@ swiper-slide.swiper1 {
 }
 .servicestitle h2{
     font-family: 'Cinzel';
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 120%; /* 67.2px */
     text-transform: uppercase;
+    max-width: 500px;
+    margin: auto;
 }
 .servicestitle p{
     display: block;
@@ -467,7 +475,7 @@ swiper-slide.swiper1 {
         margin-left: 15px;
     }
     .servicescontainer{
-        padding-bottom: 200px;
+        padding-bottom: 50px;
     }
     .videoimg {
         display: flex;
@@ -483,7 +491,7 @@ swiper-slide.swiper1 {
     }
     .servicestitle h2{
         max-width: 357px;
-        font-size: 40px;
+        font-size: 26px;
         font-weight: 400;
         line-height: 120%;
         margin: auto;
@@ -574,15 +582,16 @@ swiper-slide.swiper1 {
 }
 .about h1{
     font-family: 'Cinzel';
-    font-size: 90.327px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 90%; /* 81.295px */
     text-transform: uppercase;
+    max-width: 500px;
 }
 .about p{
     max-width:452px;
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 130%; 
 }
@@ -597,7 +606,7 @@ swiper-slide.swiper1 {
         left: -40px;
     }
     .vetor-l img{
-        height: 1900px;
+        height: 1800px;
         max-height: 2000px;
     }
     /* .reveal.revealtext.aboutimg{
@@ -629,7 +638,7 @@ swiper-slide.swiper1 {
     }
     .about h1{
         max-width: 370px;
-        font-size: 40px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 120%;
     }
@@ -674,14 +683,15 @@ swiper-slide.swiper1 {
 }
 .preferencetitle h1{
     display: flex;
+    align-items: center;
     color: #FFCFD7;
     font-family: 'Cinzel';
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 90%; /* 57.6px */
     text-transform: uppercase;
     gap:21px;
-    max-width: 897px;
+    max-width: 700px;
 }
 .preferencetitle img{
     height: 100%;
@@ -745,7 +755,7 @@ swiper-slide.swiper1 {
     }
     .preftittleimg{display: none;}
     .preferencetitle h1{
-        font-size: 40px;
+        font-size: 26px;
         line-height: 120%;
     }
     .preferencetitle .vetor1{
@@ -781,7 +791,7 @@ swiper-slide.swiper1 {
     flex-direction: column;
     gap: 24px;
     text-align: center;
-    max-width: 420px;
+    max-width:520px;
     padding: 0 10px;
     margin: auto;
 }
@@ -792,6 +802,14 @@ swiper-slide.swiper1 {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+.gallerytitle h3{    
+font-family: 'Cinzel';
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 67.2px */
+text-transform: uppercase;
 }
 .gallerygrid{
     margin: 40px auto;
@@ -816,6 +834,12 @@ swiper-slide.swiper1 {
     .gallerygridm{display: block;} 
     .gallerycontainer{
         background-size: 250%;
+        padding: 50px 0 50px;
+    }
+    .gallerytitle h3{
+        max-width: 300px;
+        margin: auto;
+        font-size: 26px;
     }
     .gallerygrid{margin: auto;padding-top: 20px;}
     .mySwiper3 {
@@ -845,7 +869,7 @@ swiper-slide.swiper1 {
     flex-direction: column;
     gap: 24px;
     text-align: center;
-    max-width: 590px;
+    max-width: 430px;
     padding: 0 10px;
     margin: auto;
 }
@@ -855,7 +879,7 @@ swiper-slide.swiper1 {
 .reviewstitle p{
     color: #fff;
     font-family: 'Cinzel';
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 120%; /* 67.2px */
     text-transform: uppercase;
@@ -879,7 +903,7 @@ swiper-slide.swiper1 {
     gap: 12px;
     align-items: center;
     font-family: 'Cinzel';
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 120%; /* 67.2px */
     text-transform: uppercase;
@@ -903,11 +927,12 @@ swiper-slide.swiper1 {
 @media screen and (max-width:580px) {
     .reviewscontainer{margin-top: -1px;}
     .reviewstitle p{        
-        font-size: 40px;
+        font-size: 26px;
+        max-width: 260px;
         margin: auto;
     }
     .ig-embed h2{
-        font-size: 42px;
+        font-size: 26px;
     }
     .ig-embed h2 svg{
         max-width: 50px;
@@ -979,7 +1004,7 @@ swiper-slide.swiper1 {
 .logoform{
     color: #fff;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     z-index: 99;
     margin-bottom: 0px;
 }
@@ -1051,7 +1076,7 @@ form button{
     .logoform{
         color: #fff;
         width: 100%;
-        max-width: 300px;
+        max-width: 150px;
         z-index: 99;
         margin-bottom: 0px;
     }
@@ -1064,7 +1089,7 @@ form button{
     }
     .formp h2{
         width: 330px;    
-        font-size: 36px;
+        font-size: 26px;
     }
 }
 .mapscontainer{
