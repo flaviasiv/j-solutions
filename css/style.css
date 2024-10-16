@@ -913,12 +913,12 @@ text-transform: uppercase;
 .ig-embed iframe{
     width:100%;
     max-width: 900px; 
-    height: 550px;
+    height: 830px;
 }
 @media screen and (max-width:980px) {
     .ig-embed iframe{
         max-width: 500px; 
-        max-height: 400px;
+        max-height: 510px;
     }    
 }
 @media screen and (max-width:580px) {
@@ -937,7 +937,7 @@ text-transform: uppercase;
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        max-height: 350px;
+        max-height: 450px;
     }    
 }
 .formgrid{

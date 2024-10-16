@@ -21,13 +21,16 @@
   <meta name="description" content="FP J Solutions Cleaning Services" />
   <meta name="keywords" content="portfolio, Business, J Solutions Cleaning, J Solutions Cleaning, J Solutions, Cleaning, Cleaning Services, Services, about, OHIO, Columbus">
   <meta name="robots" content="index, follow">
-  <style>    
+  <style>          
+    body{
+        background-color: #FFCFD7;
+    }
     .thankscontainer{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #A0905F;
+        background-color: #FFCFD7;
         color: #000;
         height: 100vw;
         text-align: center;
@@ -39,7 +42,7 @@
     .thankscontainer p{
         max-width: 1100px;
         padding: 0 20px;
-        font-size: 50px;
+        font-size: 30px;
     }
     .thankscontainer button{
         border: none;
@@ -51,6 +54,23 @@
         text-decoration: none;
         font-weight: bold;
         line-height:200%;
+        border-radius: 30px;
+    }
+    .thankscontainer .callnow a:hover{
+        border: 1px solid #000;
+    }
+    @media screen and (max-width:900px) {
+        .thankscontainer{
+            height: 100%;
+            gap: 30px;
+            padding: 50px 0;
+        }
+        .thankscontainer svg{
+            width: 100px;
+        }
+        .thankscontainer p{
+            font-size: 16px;
+        }            
     }
   </style>
 </head>
@@ -62,7 +82,7 @@
             <br><br>
             Our team will review your message and get back to you as soon as possible. If you have any additional questions or need further assistance in the meantime, please don't hesitate to let us know.
             </p>
-            <div class="callnow"><button><a href="./index.html" target="_blank">Back to Home Page</a></button></div>
+            <div class="callnow"><button><a href="./index.html">Back to Home Page</a></button></div>
     </main>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/javascript.js"></script>
