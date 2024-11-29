@@ -147,6 +147,7 @@ swiper-container{
     font-weight: 400;
     line-height: 150%; 
     display: flex;
+    padding-top: 28px;
     flex-direction: column;
 }
 .h4-sm .servicesbutton{
@@ -533,7 +534,7 @@ swiper-slide.swiper1 {
 .aboutimgw{
     position: absolute;
     right: 0;
-    bottom: -180px;
+    top: 70px;
     z-index: 99;
     max-width: 491px;
     border-radius: 16px;
